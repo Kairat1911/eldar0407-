@@ -28,11 +28,11 @@ print(f'сумма расходов на неделю: {summa}')
 average_consumption = summa / days
 average_consumption = round(average_consumption, 1)
 print(f'средний расход на день: {average_consumption}')
-# if 1 <= summa <= 500:
-#     print('мало')
-# elif  501 <= summa <= 700:
-#     print('средне')
-# elif  701 < summa :
-#     print('много')
-# else:
-#     print('ничего не потрачено')
+if 1 <= summa <= 500:
+    print('мало')
+elif  501 <= summa <= 700:
+    print('средне')
+elif  701 < summa :
+    print('много')
+else:
+    print('ничего не потрачено')
